@@ -1,0 +1,34 @@
+<h2>My skill information</h2>
+
+<div class="skill-table">
+  <table mat-table [dataSource]="dataSource" matSort >
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> 名前 </th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+  
+    <!-- Category Column -->
+    <ng-container matColumnDef="category">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> 分類 </th>
+      <td mat-cell *matCellDef="let element"> {{element.category}} </td>
+    </ng-container>
+  
+    <!-- Years Column -->
+    <ng-container matColumnDef="years">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> 経験年数 </th>
+      <td mat-cell *matCellDef="let element"> {{element.years}} </td>
+    </ng-container>
+  
+    <!-- Other Column -->
+    <ng-container matColumnDef="other">
+      <th mat-header-cell *matHeaderCellDef> 備考 </th>
+      <td mat-cell *matCellDef="let element"> {{element.other}} </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>
+

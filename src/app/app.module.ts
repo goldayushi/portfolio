@@ -13,13 +13,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { ProfileComponent } from './profile/profile.component';
 import { WorkComponent } from './work/work.component';
+import { SkillComponent } from './skill/skill.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ProfileComponent,
-    WorkComponent
+    WorkComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { WorkComponent } from './work/work.component';
     MatToolbarModule,
     MatTabsModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
