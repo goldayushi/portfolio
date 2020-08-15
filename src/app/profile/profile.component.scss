@@ -1,11 +1,6 @@
-.example-card {
-  margin-top: 5rem;
+.profile-card {
+  margin: 30px auto;
   max-width: 800px;
-}
-
-.example-header-image {
-  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-  background-size: cover;
 }
 
 #github-button {
@@ -19,4 +14,26 @@
 a {
   color: white;
   text-decoration: none;
+}
+
+table {
+  width: 700px;
+  border-collapse: collapse;
+  margin: 20px 30px;
+}
+
+table th {
+  padding: 10px;
+  color: black;
+  background: #fff;
+  width: 20%;
+}
+
+table td {
+  padding: 3px 10px;
+  text-align: left;
+}
+
+table th, table td {
+  border: solid 1px black;
 }

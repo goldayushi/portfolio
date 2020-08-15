@@ -32,12 +32,19 @@ table th {
   padding: 10px;
   color: #FF9800;
   background: #fff5e5;
+  width: 20%;
 }
 
 table td {
   padding: 3px 10px;
+  text-align: left;
 }
 
 table th, table td {
   border: solid 1px black;
+}
+
+p {
+  text-indent: 1em;
+  margin: 0em;
 }
