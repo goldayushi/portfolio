@@ -8,20 +8,21 @@ export interface SkillElement {
 }
 
 const ELEMENT_DATA: SkillElement[] = [
-  {name: 'HTML', category: 'フロント', years: '1年', other: ''},
-  {name: 'CSS', category: 'フロント', years: '1年', other: ''},
-  {name: 'JavaScript', category: 'フロント', years: '1年未満', other: '業務で経験(プログラマー)'},
-  {name: 'Node.js', category: 'バックエンド', years: '1年未満', other: '業務で経験(プログラマー)'},
-  {name: 'Ruby', category: 'バックエンド', years: '1年未満', other: '業務で経験(プログラマー)'},
-  {name: 'Rails', category: 'バックエンド', years: '1年未満', other: '業務で経験(プログラマー)'},
-  {name: 'PHP', category: 'バックエンド', years: '1年未満', other: '業務で経験(ディレクター)'},
+  {name: 'HTML', category: 'フロントエンド', years: '1年', other: '業務で経験'},
+  {name: 'CSS', category: 'フロントエンド', years: '1年', other: '業務で経験'},
+  {name: 'JavaScript', category: 'フロントエンド', years: '1年未満', other: '業務で経験'},
+  {name: 'Angular', category: 'フロントエンド', years: '1年未満', other: ''},
+  {name: 'Node.js', category: 'バックエンド', years: '1年未満', other: '業務で経験'},
+  {name: 'Ruby', category: 'バックエンド', years: '1年未満', other: '業務で経験'},
+  {name: 'Rails', category: 'バックエンド', years: '1年未満', other: '業務で経験'},
+  {name: 'PHP', category: 'バックエンド', years: '1年未満', other: ''},
   {name: 'Laravel', category: 'バックエンド', years: '1年未満', other: ''},
-  {name: 'AWS', category: 'インフラ', years: '1年', other: '業務で経験(EC2,RDS,S3,IAM等)(ディレクター)'},
+  {name: 'AWS', category: 'インフラ', years: '1年', other: '業務で経験'},
   {name: 'Apache', category: 'インフラ', years: '1年未満', other: '業務で経験'},
-  {name: 'MySQL', category: 'DB', years: '1年未満', other: '業務で経験'},
-  {name: 'MongoDB', category: 'DB', years: '1年未満', other: '業務で経験'},
+  {name: 'MySQL', category: 'DB', years: '1年未満', other: ''},
   {name: 'PostgreSQL', category: 'DB', years: '1年未満', other: ''},
   {name: 'CircleCI', category: 'その他', years: '1年未満', other: ''},
+  {name: 'Heroku', category: 'その他', years: '1年未満', other: ''},
 ];
 
 @Component({

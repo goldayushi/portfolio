@@ -14,6 +14,7 @@ import { HeaderComponent } from './header/header.component';
 import { ProfileComponent } from './profile/profile.component';
 import { WorkComponent } from './work/work.component';
 import { SkillComponent } from './skill/skill.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SkillComponent } from './skill/skill.component';
     HeaderComponent,
     ProfileComponent,
     WorkComponent,
-    SkillComponent
+    SkillComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
